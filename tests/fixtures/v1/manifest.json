@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "suite": 1,
+  "iterations": 600000,
+  "password": "PUBLIC-TEST-ONLY!한글-v1-2026",
+  "password_is_public_test_only": true,
+  "created": "2026-11-14",
+  "frozen_decoder_sha256": "cbd8524213c84fd3b1500787883832e3054826594d1d17c82f0993693ca35668",
+  "fixtures": [
+    {
+      "id": "unicode-binary",
+      "name": "호환성 검증 🗝️.bin",
+      "plaintext_sha256": "2a2eacc90ffd116487753191220c830a7e6550558fd33b1fdce53233262737e9",
+      "ciphertext_sha256": "a7a9bc0ee3d21ff42d5b7959d21d5e0940b93d1bb0b7f62dd36d660f86b0b061"
+    },
+    {
+      "id": "empty",
+      "name": "빈 파일.txt",
+      "plaintext_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "ciphertext_sha256": "bc63f368dfe4a428b4fb23f40237a88725e91110604561468ed3bfd3992aa10b"
+    }
+  ]
+}
