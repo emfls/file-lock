@@ -61,3 +61,8 @@ footer { grid-column: 1 / -1; border-top: 1px solid #b5c7c5; padding-top: 24px; 
 @media (max-width: 720px) { main { display: block; max-width: 600px; padding: 30px 20px 25px; } header { padding: 0; } h1 { margin: 24px 0 18px; font-size: clamp(2.2rem, 8.5vw, 3.2rem); } header > p { font-size: 14px; } header::after { width: 102px; height: 58px; margin: 33px 0 28px; } .warning { margin: 0 0 24px; padding: 17px 18px; font-size: 13px; } .notes { margin-top: 40px; } .notes ul { grid-template-columns: 1fr; gap: 0; } .notes li { padding-block: 15px; } }
 @media (max-width: 380px) { main { padding-inline: 16px; } .panel { padding: 21px 18px; } .panel > h2 { margin: -21px -18px 22px; padding: 18px; } .modes label { padding-inline: 12px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; } }
+
+/* AI-generated conceptual hero, 2026-11-15. */
+.ai-hero-photo{margin:24px 0 0;min-width:0}.ai-hero-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border:1px solid #bdc8c5}.ai-hero-photo figcaption{font:11px/1.7 system-ui,sans-serif;color:#425257;text-align:left;letter-spacing:0;padding:9px 0 0;overflow-wrap:anywhere}
+header::after{display:none}.ai-hero-photo{margin-bottom:24px}.ai-hero-photo img{max-height:265px}.ai-hero-photo figcaption{color:var(--muted)}
+@media print{.ai-hero-photo{display:none}}
